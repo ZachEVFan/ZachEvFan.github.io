@@ -1,0 +1,101 @@
+/* Basic Profile Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f3f9f3;
+    color: #333;
+    margin: 0;
+  }
+  
+  .profile-header {
+    background-color: #a8dba8;
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  .profile-header-content {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .profile-picture {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  
+  .profile-header h1 {
+    margin: 1rem 0;
+    font-size: 2.5rem;
+  }
+  
+  .profile-nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .profile-nav ul li {
+    display: inline;
+  }
+  
+  .profile-nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  .section {
+    padding: 3rem;
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  
+  h2 {
+    color: #6b8e23;
+  }
+  
+  .gallery {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+  }
+  
+  .art-piece {
+    width: calc(33.333% - 1rem);
+    text-align: center;
+  }
+  
+  .art-piece img {
+    width: 100%;
+    max-width: 250px;
+    border: 1px solid #ddd;
+    padding: 5px;
+    margin-bottom: 1rem;
+  }
+  
+  .writing-sample {
+    margin-bottom: 1.5rem;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  ul li {
+    margin-bottom: 0.5rem;
+  }
+  
+  ul li a {
+    text-decoration: none;
+    color: #6b8e23;
+  }
+  
+  ul li a:hover {
+    text-decoration: underline;
+  }
+  
