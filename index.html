@@ -9,6 +9,7 @@
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
+            scroll-behavior: smooth; /* Enables smooth scrolling */
         }
         header {
             background-color: #333;
@@ -20,20 +21,29 @@
             background-color: #444;
             padding: 10px 0;
             text-align: center;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
         }
         nav a {
             color: white;
             text-decoration: none;
             margin: 0 15px;
             font-size: 18px;
+            padding: 5px 10px;
         }
         nav a:hover {
-            text-decoration: underline;
+            background-color: #555;
+            border-radius: 5px;
         }
         section {
-            padding: 20px;
+            padding: 50px 20px;
             max-width: 800px;
             margin: auto;
+            border-bottom: 1px solid #ddd;
+        }
+        section:last-child {
+            border-bottom: none;
         }
         footer {
             background-color: #333;
@@ -46,7 +56,7 @@
 </head>
 <body>
     <header>
-        <h1>Zap's Portfolio</h1>
+        <h1>Zach's Portfolio</h1>
     </header>
     <nav>
         <a href="#art">Art</a>
@@ -61,19 +71,20 @@
     </section>
     <section id="voice-acting">
         <h2>Voice Acting</h2>
-        <p>Upload audio samples or embed your demo reels here.</p>
+        <p>Upload audio samples or embed your demo reels here. You can add brief descriptions of each clip.</p>
     </section>
     <section id="writing">
         <h2>Writing</h2>
-        <p>Share your written work, like scripts, stories, or articles.</p>
+        <p>Share your written work, like scripts, stories, or articles. You can include PDF links or text excerpts.</p>
     </section>
     <section id="about">
         <h2>About Me</h2>
-        <p>Write about your creative journey, interests, and goals.</p>
+        <p>Write about your creative journey, interests, and goals. This is where people get to know you better.</p>
     </section>
     <section id="contact">
         <h2>Contact</h2>
         <p>Add your email or a contact form for inquiries.</p>
+        <p>Email: your.email@example.com</p>
     </section>
     <footer>
         <p>© 2025 Zach's Portfolio</p>
